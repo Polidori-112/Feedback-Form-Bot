@@ -20,7 +20,7 @@ def send_email(recipient, subject, txt_file_path):
     body = f.read()
 
   # Send the email
-  ezgmail.send(recipient, subject, body)
+  #ezgmail.send(recipient, subject, body)
 
 #returns a dictionary of filenames as keys and associated emails to send to as values  
 def get_emails(file_path):
