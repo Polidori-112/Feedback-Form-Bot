@@ -328,7 +328,7 @@ try:
   removeUnwantedCharacters(file)
   #remove the first line of the spreadsheet if it is not desired data
   remove_prompt(file)
-  print("Writing files...")
+  print("Writing files...\n(This may take a minute)")
   #run the actual program
   write_txt(file)
   #fix this weird bug where some empty cells are read as 'unnamed' instead of null
@@ -341,4 +341,3 @@ except:
 print("All .txt files written with no errors")
 print("\nIMPORTANT: PLEASE READ THE README.txt DOCUMENT BEFORE CONTINUING")
 print("\nPlease ensure .txt files are correct, then run gmail.py to send out information.\nThank you for choosing S3-LD Bot.")
-
