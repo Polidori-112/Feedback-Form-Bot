@@ -1,4 +1,4 @@
-##README
+## README
 
 This is a script written by MIDN Polidori and chatgpt to help with the feedback form responses.
 This is not a polished, final product, so expect bugs and crashes. Reach out to MIDN Polidori,
@@ -12,7 +12,7 @@ The general steps to operate this bot are as follows:
 5. Double check some of the files in the emails directory to make sure its formatted correctly. The filename corresponds to who it will be sent to
 6. Run the gmail.py script. This will send out all the emails to MIDN.
 
-###Important Notes:
+### Important Notes:
 There are many inputs that will cause this program to work not as intended. Some known ones and fixes are below. Please add any that you find to this file in the shared drive and/or request a commit github
 
 1. To run this bot you must have pip3 and python3 installed along with some dependencies.
@@ -23,7 +23,7 @@ There are many inputs that will cause this program to work not as intended. Some
 	- To run the scripts, type 'python3 feedback.py' into your terminal for feedback.py. Replace feedback.py with check.py and gmail.py to run those scripts as well. Note you must be in the S3LD directory to run these scripts. Ask a CS friend for help if you do not know how to do this
 	- Note: you must be running the above 2 commands by tying them in an app called Terminal for mac users or CMD for windows users
 
-2. DO NOT EDIT THE QUESTIONS TO THE GOOGLE FORM. Even adding or removing a question will mess with the spreadsheets the results generate to, resulting in this bot either working very incorrectly or not at all
+2. **DO NOT EDIT THE QUESTIONS TO THE GOOGLE FORM.** Even adding or removing a question will mess with the spreadsheets the results generate to, resulting in this bot either working very incorrectly or not at all
 	
 3. If two MIDN have the same last name (ie. MIDN 1/C Smith and MIDN 3/C Smith), there will
 be one email sent to one of the two MIDN containing the feedback for both of them. I would
