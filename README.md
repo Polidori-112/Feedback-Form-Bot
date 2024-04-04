@@ -1,16 +1,16 @@
 ## README
 
-This is a script written by MIDN Polidori and chatgpt to help with the feedback form responses.
-This is not a polished, final product, so expect bugs and crashes. Reach out to MIDN Polidori,
+This is a script written to help with the feedback form responses. Reach out to MIDN Polidori,
 your previous S3-LD, or a CS friend to help you fix any bugs or crashes that you experience.
 
 The general steps to operate this bot are as follows:
-1. Download the zip file from either github or the shared drive and unzip the files
-2. Download the excel spreadsheet (as a .xlsx file) containing responses to this form, place it in the S3LDBot/spreadsheets folder, and rename it to 'Feedback.xlsx'
-3. Run the feedback.py script. This will take the information from the spreadsheet and output them to .txt files that are drafts of the email in the emails directory.
-4. Run the check.py script. This script will tell you everyone who has not filled out this form. The program will write funky emails to those who have not filled it out.
-5. Double check some of the files in the emails directory to make sure its formatted correctly. The filename corresponds to who it will be sent to
-6. Run the gmail.py script. This will send out all the emails to MIDN.
+1. Make a copy of the Example Feedback Form and send it out to the battalion. It can be found in the NROTC Shared Drive -> Unit Documents-Regs -> Example Peer Feedback Form (https://forms.gle/FpBGx5SihGMtXVfd6)
+2. Clone this repository or download the zip file from either github or the shared drive and unzip the files
+3. Download the excel spreadsheet (as a .xlsx file) containing responses to the form, place it in the S3LDBot/spreadsheets folder, and rename it to 'Feedback.xlsx'
+4. Run the feedback.py script. This will take the information from the spreadsheet and output them to .txt files that are drafts of the email in the emails directory.
+5. Run the check.py script. This script will tell you everyone who has not filled out this form. The program will write funky emails to those who have not filled it out.
+6. Double check some of the files in the emails directory to make sure its formatted correctly. The filename corresponds to who it will be sent to
+7. Run the gmail.py script. This will send out all the emails to MIDN.
 
 ### Important Notes:
 There are many inputs that will cause this program to work not as intended. Some known ones and fixes are below. Please add any that you find to this file in the shared drive and/or request a commit github
